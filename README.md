@@ -4,10 +4,11 @@
 
     [User Profile/Settings/Internationalisation]: When user changes language, saves the changes, then the interface changes to the appropriate language
 
-    Steps to reproduce:
+    Steps:
       1. Authorize with user
       2. Go to Profile/Preferences/Internationalisation section
       3. Change language
+      4. Save Changes
 
     Expected Result:
         User interface language is changed
