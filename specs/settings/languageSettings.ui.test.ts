@@ -1,5 +1,5 @@
 import { test, expect } from '@test';
-import { localizationData } from './data/lozalizationData';
+import { localizationData } from './data/localization';
 
 test.describe('User Profile Settings', async () => {
 	let options: (typeof localizationData)['en' | 'uk'];

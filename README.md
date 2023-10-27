@@ -20,7 +20,7 @@
 
 ### Run test
 
-1. Run docker container using command ``docker run -v `pwd`/report:/app/report pw_tests`` (Use `wsl` or `linux`)
+1. Run docker container using command ``docker run --rm -v `pwd`/report:/app/report pw_tests`` (Use `wsl` or `linux`)
 
 ### Results
 
