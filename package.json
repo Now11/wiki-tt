@@ -1,0 +1,33 @@
+{
+	"name": "wiki_tt",
+	"version": "1.0.0",
+	"scripts": {
+		"test:e2e": "npx playwright test --config=./playwright.config.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Now11/wiki_tt.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Now11/wiki_tt/issues"
+	},
+	"homepage": "https://github.com/Now11/wiki_tt#readme",
+	"dependencies": {
+		"@playwright/test": "^1.39.0",
+		"dotenv": "^16.3.1",
+		"form-data": "^4.0.0",
+		"typescript": "^5.2.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.9",
+		"@typescript-eslint/eslint-plugin": "^6.9.0",
+		"@typescript-eslint/parser": "^6.9.0",
+		"eslint": "^8.52.0",
+		"eslint-config-prettier": "^9.0.0",
+		"prettier": "^3.0.3",
+		"tsc-alias": "^1.8.8"
+	}
+}
