@@ -8,7 +8,7 @@ export class MainPage extends BasePage {
 	readonly userIcon: Locator;
 	constructor(page: Page) {
 		super(page, 'Main Page');
-		this.url = '/wiki/Special:Preferences';
+		this.url = '/wiki/Main_Page';
 		this.userDropDowMenu = this.create(ItemsList, page.locator('#p-personal'), 'User DropDown Menu');
 		this.userIcon = this.page.locator('#vector-user-links-dropdown');
 	}

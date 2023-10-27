@@ -13,3 +13,4 @@ trace.log
 test-results
 .temp/*
 report/*
+!report/.gitkeep
